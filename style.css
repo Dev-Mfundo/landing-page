@@ -1,0 +1,152 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: roboto;
+}
+body{
+    display: flex;
+    flex-direction: column;
+    min-height: 100svh;
+    width: 100%;
+}
+header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: #1f2937;
+    padding: 10px 100px;
+}
+header .branding h2{
+    color: #f9faf8;;
+    font-size: 24px;
+}
+header .navbar{
+    display: flex;
+    flex-direction: row;
+}
+header .navbar a{
+    text-decoration: none;
+    color: #e5f7fb;
+    margin: 10px;
+    font-size: 18px;
+}
+main hero{
+    display: flex;
+    flex-direction: row;
+    min-height: 100svh;
+    background-color: #1f2937;
+}
+main hero nav,section{
+    display: block;
+    width: 50%;
+    margin: 50px auto;
+    padding: 100px;
+}
+main hero nav h1{
+    font-size: 48px;
+    font-weight: 600;
+    color: #f9faf8;
+    width: 100%;
+}
+main hero nav p{
+    color: #e5f7fb;
+    font-size: 18px;
+}
+main hero nav button{
+    background-color: #3882f6;
+    color: #f9faf8;
+    outline: 0px;
+    border: #3882f6;
+    border-radius: 10px;
+    padding: 8px;
+    margin-top: 10px;
+}
+main  hero section p{
+    color: #e5f7fb;
+    background-color: #6D747D;
+    padding: 80px;
+    width: 180px;
+    height: 50px;
+    margin: 0 auto;
+}
+main .gallery{
+    display: flex;
+    flex-direction: column;
+    min-height: 65svh;
+}
+main .gallery h2{
+    text-align: center;
+    margin-bottom: 50px;
+    padding: 10px;
+    font-size: 36px;
+    font-weight: 600;
+    color: #1f2937;
+}
+main .gallery nav{
+    display: flex;
+}
+main .illustration{
+    display: flex;
+    flex-direction: column;
+}
+main .illustrations span{
+    display: inline-block;
+    margin: 10px auto;
+    padding: 60px;
+    border: 1px solid #6D747D;
+    background-color: grey;
+}
+main .illustrations p{
+    color: #1f2937;
+}
+article{
+    font-size: 36px;
+    height: 45svh;
+    background-color: #e5e7eb;
+    margin-top: 0px;
+    margin-bottom: 50px;
+}
+article h4{
+    font-style: italic;
+    font-weight: 100;
+    color: #1f2937;
+    padding: 20px 70px;
+}
+article p{
+    text-align: right;
+    padding: 0px 50px;
+    color: #1f2937;
+    font-weight: 600;
+}
+.toAction{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    min-height: 30px;
+    background-color: #3882f6;
+    margin: 50px;
+}
+.toAction aside{
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    color: #f9faf8;
+}
+.toAction button{
+    background-color: #3882f6;
+    color: #f9faf8;
+    outline: 0px;
+    border: 1px solid #f9faf8;
+    border-radius: 10px;
+    padding: 8px;
+    margin-top: 24px;
+    height: 35px;
+}
+footer{
+    background-color: #1f2937;
+    text-align: center;
+}
+footer p{
+    padding: 10px;
+    color: #f9faf8;
+}
